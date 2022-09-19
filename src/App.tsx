@@ -1,10 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import MusicPlayer from './components/music/MusicPlayer'
+import sound from './assets/song.mp3'
 
 function App() {
   return (
     <div className="App">
+    <MusicPlayer src={sound}/>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
